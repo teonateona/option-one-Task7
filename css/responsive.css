@@ -1,0 +1,214 @@
+
+@media all and  (min-width: 834px) {
+
+    /*** header ***/
+
+    .container {
+        max-width: 774px;
+    }
+
+   .header {
+       height: 700px;
+       background-image: url(../assets/img/header-bg-md.png);
+   }
+
+   .header-text {
+       font-size: var(--header-p-md-fs);
+       line-height: 37px;
+   }
+
+/*** content-one ***/
+
+   .content-one-title {
+    font-size: var(--section-title-md);
+    line-height: 55px;
+    padding-top: 96px;
+
+}
+
+.content-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 42px 0 96px 0;
+    gap: 54px;
+    
+}
+
+
+.content-one img:last-child {
+    display: none;
+}
+
+/*** content-two ***/
+
+.content-two-title {
+    font-size: var(--section-title-md);
+    line-height: 55px;
+    padding-top: 96px;
+
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 54px;
+    padding: 42px 0 96px 0;
+    
+
+}
+
+.content-two-img{
+    width: 360px;
+    height: 320px;
+}
+
+ .content-text{
+    width: 360px;
+    height: 320px;
+}
+
+
+/*** footer ***/
+
+.footer-inner {
+    padding: 78px 0 78px 0;
+}
+
+.footer-icon {
+    gap:48px;
+}
+
+}
+
+
+@media all and  (min-width: 1024px) {
+
+    /*** header ***/
+
+   .container {
+    max-width: 844px;
+    }
+
+   .header {
+       background-image: url(../assets/img/header-bg-lg.png);
+   }
+   .logo-L {
+       font-size: var(--logo-md);
+       line-height: 153px;
+   }
+
+  .navbar {
+    display: block;
+  }
+  
+  .navbar-list {
+   display: flex;
+}
+
+    .navbar-list-item {
+    
+    display: flex;
+    align-items: center;
+    }
+    .navbar-list-item.middle {
+    margin: 0 35px;
+    }
+    .navbar-list-link {
+    font-family: 'GentiumBookPlus' , cursive;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 37px;
+    color: #FFFFFF;
+    }
+
+    .burger-menu {
+    display: none;
+    }
+
+    .header-text {
+    font-size: var(--header-p-lg-fs);
+    line-height: 46px;
+    }
+
+   /*** content-two ***/
+
+   .content-two-img {
+      width: 400px;
+    
+}   
+.content-text {
+    width: 400px;
+}
+    .text {
+        font-size: 1.8rem;
+        line-height: 20px;
+    }
+
+     /*** footer ***/
+
+     .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0 32px 0;
+    }
+
+    .footer-logo-L {
+        color: #FFFFFF;
+        font-family: 'miltoniantatoo' , cursive;
+        font-weight: 400;
+        font-size: var(--logo-md);
+        line-height: 153px;
+        display: block;
+    }
+
+}
+
+
+
+@media all and  (min-width: 1440px) {
+
+    /*** header ***/
+   .container {
+       max-width: 1190px;
+    }
+
+   .header {
+       background-image: url(../assets/img/header-bg-xl.png);
+   }
+
+   .navbar-list-item.middle {
+       margin: 0 54px;
+   }
+
+   .header-text {
+       font-size: var(--header-p-lg-fs);
+       
+   }
+
+   /*** content-one ***/
+
+    .content-one img:last-child {
+        display: block;
+    }
+
+    .content-img {
+        justify-content: space-between;
+    }
+
+
+
+       /*** content-two ***/
+
+   .content-two-img {
+    width: 565px;
+
+}
+
+.content-text {
+    width: 565px;
+}
+
+}
